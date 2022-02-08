@@ -1,6 +1,6 @@
 function SearchBar() {
     return (
-        <div className="search">
+        <div className="searchbar">
             <label htmlFor="search">Search Destination:</label>
             <input
                 type="text"
