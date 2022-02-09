@@ -1,14 +1,35 @@
-
+import 'bootstrap/dist/css/bootstrap.css'
+import {Navbar, NavbarBrand,Container,Row,Col} from 'react-bootstrap'
 
 function Header() {
     const logo = "https://upload.wikimedia.org/wikipedia/commons/f/fd/Flag_of_Senegal.svg"
     return (
-        <header>
-           <img src={logo} style={{width:"170px", height:"190px", paddingLeft:"250px", }}/>
-           <p style={{textAlign:"center",height: "25px", paddingTop:"1px", paddingRight:"100px", fontSize:"50px"}}>Things To Do In Senegal</p>
-        </header>
+        <>
+        <Container>
+            <Row >
+                <Col></Col>
+                <Col>
+        <Navbar bg="mywhite" variant="light">
+            <Navbar.Brand>
+                        <img src={logo}/>
+            </Navbar.Brand> 
+            <Navbar.Brand></Navbar.Brand>
+            <Navbar.Brand>
+            <h1>Things To Do In Senegal</h1> 
+            </Navbar.Brand>
 
-    )
+            </Navbar>
+            </Col>
+            <Col></Col>
+            </Row>
+        </Container>
+
+        {/* <SearchBar/> */}
+
+
+
+        </>
+    );
 }
 
 export default Header
