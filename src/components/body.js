@@ -8,13 +8,15 @@ import SearchBar from './searchBar';
 
 function Body(){
 
+
+
     const [destinations, setDestinations] = useState([])
     const [search, setSearch]= useState("")
 
     useEffect (()=>{
         fetch('http://localhost:3000/destinations')
        .then(r => r.json())
-        .then(destinations => setDestinations(destinations) )
+        .then(destinations => setDestinations(destinations))
       },[])
 
       const [buttons, setButtons]= useState([]) 
@@ -28,6 +30,16 @@ function Body(){
         setDestinations(filteredData)
     }
     
+
+
+    function addNewDestination(newDestination) {
+        fetch('http://localhost:3000/destinations',{
+            method:"POST", headers:{
+                'Content-Type':'application/json'
+            }, body: JSON.stringify(newDestination)
+        }).then(r => r.json())
+            .then(newDestination => { setDestinations([...destinations, newDestination]) })
+    }
 
     return(
         <div className="body">
@@ -50,7 +62,8 @@ function Body(){
 
 
  <Col><DataContainer className="body-element"
-   destinations={searchItems || destinations} />    
+   destinations={searchItems || destinations}
+   addNewDestination={addNewDestination} />    
  </Col>    
 
    </Row>

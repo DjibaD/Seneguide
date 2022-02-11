@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-function Form() {
+function Form({ addNewDestination }) {
     const [destinationForm, setDestinationForm] = useState({
         name: "",
         image: "",
@@ -18,11 +18,21 @@ function Form() {
         });
     }
 
+    function handleSubmit(e) {
+        e.preventDefault()
+        const newDestinationData = { name: destinationForm.name, 
+            image: destinationForm.image, 
+            location: destinationForm.location, 
+            description: destinationForm.description 
+        }
+        addNewDestination(newDestinationData)
+        e.target.reset()
+    }
+
     return (
         <div className="new-form">
             <h2>Add New Destination</h2>
-            {/* onSubmit={handleSubmit} */}
-            <form >
+            <form onSubmit={handleSubmit} >
                 <input
                     type="text"
                     placeholder="destination name"
