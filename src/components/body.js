@@ -5,7 +5,9 @@ import 'bootstrap/dist/css/bootstrap.css'
 import {Container, Row, Col} from 'react-bootstrap'
 import SearchBar from './searchBar';
 
+
 function Body(){
+
     const [destinations, setDestinations] = useState([])
     const [search, setSearch]= useState("")
 
@@ -15,9 +17,17 @@ function Body(){
         .then(destinations => setDestinations(destinations) )
       },[])
 
+      const [buttons, setButtons]= useState([]) 
+
       const searchItems = destinations.filter((card) => {
         return card.name.toLowerCase().includes(search.toLowerCase())
     })
+
+    const filter = (button) => {
+        const filteredData = destinations.filter(item => item.activity1 === button);
+        setDestinations(filteredData)
+    }
+    
 
     return(
         <div className="body">
@@ -26,13 +36,17 @@ function Body(){
 <Row>
 
      <Col lg={{ span: 6, offset: 3 }}>
-         <SearchBar setSearch={setSearch} />
+         <SearchBar 
+         setSearch={setSearch}
+          />
     </Col>
 
 </Row>
 
 <Row style={{ textAlign:"center", paddingTop:"50px" }}>
-    <Col xs={2}><SideBar className="body-element" /></Col>
+    <Col xs={2}><SideBar className="body-element" 
+    filter={filter}
+    /></Col>
 
 
  <Col><DataContainer className="body-element"
