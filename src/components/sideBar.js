@@ -2,7 +2,14 @@ import 'bootstrap/dist/css/bootstrap.css'
 import {Button, Container, Row, Col} from 'react-bootstrap'
 
 
-function SideBar({filter}){
+function SideBar({ setButton, destinations }){
+
+    function handleClick(e){
+        const filteredData = destinations.filter(item => item.activity === e.target.textContent.toLowerCase())
+        // console.log(filteredData.length)
+        setButton(filteredData)
+    }
+
 
     
     return(
@@ -18,13 +25,17 @@ function SideBar({filter}){
 
            <Row>
            <Button variant="outline-secondary" 
-           onClick={()=>filter('park')}>Parks</Button>
+                    onClick={handleClick}
+                >Parks</Button>
          <Button variant="outline-secondary" 
-           onClick={()=>filter('museum')}>Museums</Button>
+                    onClick={handleClick}
+                >Museums</Button>
         <Button variant="outline-secondary" 
-           onClick={()=>filter('tour')}>Tours</Button>
+                    onClick={handleClick}
+                >Tours</Button>
         <Button variant="outline-secondary" 
-           onClick={()=>filter('beach')}>Beaches</Button>
+                    onClick={handleClick}
+                >Beaches</Button>
            </Row>
        </Container>
         </>

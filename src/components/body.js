@@ -19,16 +19,13 @@ function Body(){
         .then(destinations => setDestinations(destinations))
       },[])
 
-      const [buttons, setButtons]= useState([]) 
+      const [button, setButton]= useState([])
 
       const searchItems = destinations.filter((card) => {
         return card.name.toLowerCase().includes(search.toLowerCase())
     })
 
-    const filter = (button) => {
-        const filteredData = destinations.filter(item => item.activity1 === button);
-        setDestinations(filteredData)
-    }
+    
     
 
 
@@ -57,12 +54,13 @@ function Body(){
 
 <Row style={{ textAlign:"center", paddingTop:"50px" }}>
     <Col xs={2}><SideBar className="body-element" 
-    filter={filter}
+    setButton={setButton}
+    destinations={destinations}
     /></Col>
 
 
  <Col><DataContainer className="body-element"
-   destinations={searchItems || destinations}
+       destinations={button.length >= 1 ? button : (searchItems || destinations)}
    addNewDestination={addNewDestination} />    
  </Col>    
 

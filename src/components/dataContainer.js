@@ -1,5 +1,5 @@
 import DataCard from './dataCard';
-//import SearchBar from './searchBar';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Form from './form';
 import 'bootstrap/dist/css/bootstrap.css'
 import {Container, Row, Col} from 'react-bootstrap'
@@ -18,7 +18,12 @@ function DataContainer({ destinations, addNewDestination }) {
 
 
 
-<Form addNewDestination={ addNewDestination } />
+{/* <Form addNewDestination={ addNewDestination } /> */}
+<Router>
+            <Switch>
+            <Route path="/create" exact render={() => <Form addNewDestination={addNewDestination} />} />
+            </Switch>
+            </Router>
 
             </Container>
     )

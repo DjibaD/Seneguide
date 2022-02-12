@@ -8,6 +8,7 @@ import {Navbar, NavbarBrand,Container,Row,Col, Nav,Carousel} from 'react-bootstr
             <Navbar.Brand>Seneguide</Navbar.Brand>
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
+            <Nav.Link href="/create">New Destination</Nav.Link>
             <Nav>    
           </Nav>
         </Navbar>
