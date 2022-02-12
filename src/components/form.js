@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import {useHistory} from 'react-router-dom'
+import {Container, Row,Col,Button} from 'react-bootstrap'
 
 function Form({ addNewDestination }) {
     const history = useHistory()
@@ -39,41 +40,68 @@ function Form({ addNewDestination }) {
     }
 
     return (
-        <div className="new-form">
+        <Container className="formstyle"  >
+            <Row >
+                <Col className="mt-4">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Flag_of_Senegal.svg" alt='Flag of Senegal'></img>
+                </Col>
+                <Col xs={7}>
+
+        <div className="new-form" className="mt-4" >
             <h2>Add New Destination</h2>
-            <form onSubmit={handleSubmit} >
+            <Row>
+            <form onSubmit={handleSubmit} className="formstyle">
+                    <Row>
                 <input
+                className="mt-2"
                     type="text"
                     placeholder="destination name"
                     name="name"
                     value={name}
                     onChange={(e)=> SetName(e.target.value)}
                 />
+                </Row>
+                <Row>
                 <input
+                className="mt-2"
                     type="text"
                     placeholder="Image URL"
                     name="image"
                     value={image}
                     onChange={(e)=> SetImage(e.target.value)}
                 />
+                 </Row>
+                <Row>
                 <input
+                className="mt-2"
                     type="text"
                     placeholder="location"
                     name="location"
                     value={location}
                     onChange={(e)=> SetLocation(e.target.value)}
                 />
+                </Row>
+                <Row>
                 <input
+                className="mt-2"
                     type="text"
                     placeholder="description"
                     name="description"
                     value={description}
                     onChange={(e)=> SetDescription(e.target.value)}
                 />
-                <button type="submit">Add Destination</button>
+                </Row>
+                <Row>
+                <Button className="mt-4 mb-5" type="submit">Add Destination</Button>
+                </Row>
             </form>
+            </Row>
 
         </div>
+        </Col>
+        <Col></Col>
+        </Row>
+         </Container>
     )
 }
 

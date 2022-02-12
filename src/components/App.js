@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Route} from 'react-router-dom'
 import About from './About'
 import Navvbar from './Navvbar';
 import Home from './Home';
+import '../App.css'
 
 
 function App() {

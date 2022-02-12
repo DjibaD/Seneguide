@@ -1,4 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.css'
+import {Tab, Tabs,Container,Row,Col} from 'react-bootstrap'
+import 'bootstrap/dist/css/bootstrap.css'
 import { Carousel } from 'react-bootstrap'
 import React, { useEffect, useState } from 'react'
 
@@ -43,6 +45,26 @@ const About = () => {
                     <h1>{randText4}</h1>
                 </Carousel.Item>
             </Carousel>
+
+            <Container>
+            <Row > 
+                <Col></Col>
+       <Col xs={9}>
+
+        <div >
+           <Tabs  eventKey="profile" id="uncontrolled-tab-example" className="mb-3">
+  <Tab eventKey="home" title="About The App" >
+  <h3> Hello,</h3>
+  <h6>Thank you for visiting Seneguide, a destination hub for Senegal-based parks, tours, museums and more!</h6>
+  <img className="mt-5" src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Flag_of_Senegal.svg" alt='Flag of Senegal'/>
+  </Tab>
+  </Tabs>
+
+</div>
+</Col>
+<Col></Col>
+</Row>
+</Container>
         </div>
     )
 }
