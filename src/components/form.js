@@ -1,32 +1,41 @@
 import { useState } from 'react'
+import {useHistory} from 'react-router-dom'
 
 function Form({ addNewDestination }) {
-    const [destinationForm, setDestinationForm] = useState({
-        name: "",
-        image: "",
-        location: "",
-        description: ""
-    })
+    const history = useHistory()
+    // const [destinationForm, setDestinationForm] = useState({
+    //     name: "",
+    //     image: "",
+    //     location: "",
+    //     description: ""
+    // })
 
-    function manageDestinationForm(event) {
-        console.log(event.target.value)
-        let name = event.target.name;
-        let value = event.target.value;
-        setDestinationForm({
-            ...destinationForm,
-            [name]: value
-        });
-    }
+    const [name, SetName] = useState('');
+    const [image, SetImage] = useState('');
+    const [location, SetLocation] = useState('');
+    const [description, SetDescription] = useState('');
+
+    // function manageDestinationForm(event) {
+    //     console.log(event.target.value)
+    //     let name = event.target.name;
+    //     let value = event.target.value;
+    //     setDestinationForm({
+    //         ...destinationForm,
+    //         [name]: value
+    //     });
+    // }
+
 
     function handleSubmit(e) {
-        e.preventDefault()
-        const newDestinationData = { name: destinationForm.name, 
-            image: destinationForm.image, 
-            location: destinationForm.location, 
-            description: destinationForm.description 
-        }
-        addNewDestination(newDestinationData)
-        e.target.reset()
+        const newDestinationData={name, image, location, description}
+        fetch('http://localhost:3000/destinations',{
+            method: 'POST',
+            headers:{"Content-Type":"application/json" },
+            body: JSON.stringify(newDestinationData)
+        }).then(()=>{
+            console.log('new blog added');
+            history.push('/')
+        })
     }
 
     return (
@@ -37,29 +46,29 @@ function Form({ addNewDestination }) {
                     type="text"
                     placeholder="destination name"
                     name="name"
-                    value={destinationForm.name}
-                    onChange={manageDestinationForm}
+                    value={name}
+                    onChange={(e)=> SetName(e.target.value)}
                 />
                 <input
                     type="text"
                     placeholder="Image URL"
                     name="image"
-                    value={destinationForm.image}
-                    onChange={manageDestinationForm}
+                    value={image}
+                    onChange={(e)=> SetImage(e.target.value)}
                 />
                 <input
                     type="text"
                     placeholder="location"
                     name="location"
-                    value={destinationForm.location}
-                    onChange={manageDestinationForm}
+                    value={location}
+                    onChange={(e)=> SetLocation(e.target.value)}
                 />
                 <input
                     type="text"
                     placeholder="description"
                     name="description"
-                    value={destinationForm.description}
-                    onChange={manageDestinationForm}
+                    value={description}
+                    onChange={(e)=> SetDescription(e.target.value)}
                 />
                 <button type="submit">Add Destination</button>
             </form>

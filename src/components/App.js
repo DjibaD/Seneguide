@@ -17,9 +17,9 @@ function App() {
       <switch>
         <Route exact path="/"exact component={Home}/>
          <Route path ="/about" exact component={About}/>
-         {/* <Route path="/create" exact render={() => <Form  />} /> */}
-          {/* addNewDestination={addNewDestination} */}
-      </switch>
+         <Route path ="/create" exact render={()=><Form/>}/>
+
+         </switch>
     </div>
     </Router>
   );
