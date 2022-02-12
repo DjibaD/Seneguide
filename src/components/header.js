@@ -1,6 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css'
-import {Navbar, NavbarBrand,Container,Row,Col, Nav,Carousel} from 'react-bootstrap'
-import Navvbar from './Navvbar'
+import {Navbar,Container,Row,Col} from 'react-bootstrap'
 import Carousell from './Carousell'
 function Header() {
     const logo = "https://upload.wikimedia.org/wikipedia/commons/f/fd/Flag_of_Senegal.svg"

@@ -6,7 +6,7 @@ function SideBar({ setButton, destinations }){
 
     function handleClick(e){
         const filteredData = destinations.filter(item => item.activity === e.target.textContent.toLowerCase())
-        // console.log(filteredData.length)
+        
         setButton(filteredData)
     }
 

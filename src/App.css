@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -39,9 +39,10 @@
 
 .body {
   display: flex;
+  flex-direction: column;
 }
 
-.bg-mywhite{
+/* .bg-mywhite{{
   background-color: white;
 
 }
@@ -55,4 +56,8 @@
 
 .navbar.transparent.navbar-inverse .navbar-inner {
   background: rgba(0,0,0,0.4);
-}
+}*/
+div.mt-5.card{
+  display: flex;
+  flex-flow: wrap;
+} 

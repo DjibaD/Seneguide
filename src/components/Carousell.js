@@ -4,23 +4,23 @@ import image1 from './../assets/Pink Lake.jpg'
 import image2 from './../assets/St Louis City.jpg'
 
 const Carousell = () => {
-    return (
-        <div>
-            <Carousel>
-      <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src={image1}
-      alt="Second slide"
-    />
-     </Carousel.Item>
-     <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src={image2}
-      alt="Second slide"
-    />
-     </Carousel.Item>
+  return (
+    <div>
+      <Carousel>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={image1}
+            alt="Second slide"
+          />
+          </Carousel.Item>
+          <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={image2}
+            alt="Second slide"
+          />
+        </Carousel.Item>
       </Carousel>
         </div>
     )
