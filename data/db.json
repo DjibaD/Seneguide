@@ -1,94 +1,85 @@
 {
-    "destinations": [
-        {
-            "id": 1,
-            "name": " Djoudj National Bird Sanctuary",
-            "location": "Debi, Senegal",
-            "description": "The Djoudj National Bird Sanctuary is a safe refuge for birds in Senegal. It is located on the Senegal River’s southeast bank in northern Biffeche area. The sanctuary was established on April 14, 1971, and occupies an area of 160 square km. Although UNESCO inscribed the Djoudj National Bird Sanctuary as a World Heritage Site in 1981, the site entered the list of World Heritage in Danger twice in its history. The introduction of the invasive giant salvinia plant in the sanctuary threatened to wipe out the indigenous vegetation completely on these occasions. The various wetland habitats of the sanctuary attract a range of migratory birds including flamingos, pelicans, aquatic warblers, etc. Today, the construction of the Diama Dam also threatens the flora and fauna of the bird sanctuary.",
-            "image" : "https://www.mustseespots.com/senegal/img/djoudj-national-bird-sanctuary.jpg ",
-            "activity" : "park"
-            
-        },
-        {
-            "id": 2,
-            "name": "Niokolo-Koba National Park",
-            "location": "South eastern Senegal",
-            "description": "Located near Senegal’s border with Guinea-Bissau in the southeastern part of the country, the Niokolo-Koba National Park is a protected area and a UNESCO World Heritage Site. It was founded as a reserved in 1925 and designated a national park in January 1954. In 2007, the park was declared to be an endangered World Heritage Site. Woodland savannah, semi-arid Soudanese forest, and wetlands cover most of the park. 1500 species of plants survive in the Niokolo-Koba. A great diversity of wildlife including 80 mammalian species, 60 fish species, 38 species of reptiles, 20 amphibian species, and hundreds of bird species live in the park. Some of the most iconic animals of the Niokolo-Koba are African elephants, wild buffaloes, lions, chimpanzees, hippopotamus, etc. The notable birdlife of the park includes martial eagle, black crowned crane, Arabian bustard, etc. Three species of crocodiles also live in the waters of the park.",
-            "image" : "https://discover-senegal.com/wp-content/uploads/2019/05/Parc-national-du-niokolo-Koba.jpg ",
-            "activity" : "park"
-            
-        },
-        {
-            "id": 3,
-            "name": "Maison des Esclaves(House of Slaves)",
-            "location": "Goree Island, Senegal",
-            "description": "Barack Obama visited la Maison des Esclaves (House of Slaves) in 2013. His predecessor, George W Bush, did the same in 2003 and Bill Clinton in 1998. Situated on Ile Gorée, an island 3km (1.86mi) off Dakar’s southern tip, a visit to this pastel-coloured museum is almost a rite of passage for dignitaries and tourists alike. That’s because la Maison des Esclaves is the last remaining slave house (of around 30) on an island that UNESCO claims was “the largest slave trading centre on the African coast” between the 15th and 19th centuries. Built in the 1700s, it has been preserved to show the brutal barbarism of the slave trade. The cramped squalid conditions in which its forced inmates were kept. The chains that bound necks, ankles and feet. The gut-wrenching tools that dished out punishment. And the infamous Door of No Return from which an estimated 20 million Africans said goodbye to their homeland.",
-            "image" : "https://www.zinnedproject.org/wp-content/uploads/2021/06/Maison-des-Esclaves-Goree-Island-Senegal.jpg ",
-            "activity" : "museum"
-            
-        },
-        {
-            "id": 4,
-            "name": "Musée Théodore-Monod d’art Africain IFAN",
-            "location": "Dakar, Senegal",
-            "description": "Also known as the Dakar Museum or the Musée de l’IFAN (Institut Fondamental d’Afrique de Noire), the Théodore-Monod is a Dakar institution. Built in 1931, its collection of West African artefacts is by far the largest in Senegal (and arguably all of West Africa). From musical instruments to ancient weapons, sprawling tapestries to tiny carvings, its collection celebrates the diverse history and culture of the region and its tribes. Celebrations of death – funeral masks and drums – stand alongside celebrations of life – maternity clothes and woven baby carriers. There are hammocks, baskets and rugs from the UNESCO heritage site of Bassari country. Sculptures and headwear from the Dogon tribe of Mali. Even scarecrows and penis sheaths make an appearance. Set over two large floors, with insightful English and French descriptions, a visit to the ‘IFAN’ is well worth the entry fee.",
-            "image" : "https://upload.wikimedia.org/wikipedia/commons/e/e6/DakarMus%C3%A9e.jpg ",
-            "activity" : "museum"
-            
-        },
-        {
-            "id": 5,
-            "name": "The Lake Retba",
-            "location": "Dakar, Senegal",
-            "description": "Lac Rose lies north of the Cap Vert peninsula of Senegal, some 30 km north-east of the capital, Dakar, in northwest Africa. It is named for its pink waters caused by Dunaliella salina algae and is known for its high salt content, up to 40% in some areas.",
-            "image" : "https://www.pandotrip.com/wp-content/uploads/2013/04/Lake-Hillier2.jpg ",
-            "activity" : "tour"
-            
-        },
-        {
-            "id": 6,
-            "name": "Touba",
-            "location": "Touba, Senegal",
-            "description": "Touba is a city in central Senegal, part of Diourbel Region and Mbacké district. With a population of 529,176 in 2010, it is the second most populated Senegalese city after Dakar. It is the holy city of Mouridism and the burial place of its founder, Shaikh Ahmadou Bàmba Mbàcke.",
-            "image" : "https://cdn.theculturetrip.com/wp-content/uploads/2019/04/img_0241.jpg",
-            "activity" : "tour"
-            
-        },
-        {
-            "id": 7,
-            "name": "Kaolack ",
-            "location": "Kaolack, Senegal",
-            "description": "Kaolack is a town of 172,305 people on the north bank of the Saloum River and the N1 road in Senegal. It is the capital of the Kaolack Region, which borders The Gambia to the south. Kaolack is an important regional market town and is Senegal's main peanut trading and processing center. ",
-            "image" : "https://upload.wikimedia.org/wikipedia/commons/a/a1/Main_street_in_Kaolack_%28Senegal%29.jpg",
-            "activity" : "tour"
-            
-        },
-        {
-            "id": 8,
-            "name": "Saly-Portudal ",
-            "location": "Dakar, Senegal",
-            "description": "50 miles (80km) from Dakar and only 15 minutes from the new Blaise Diagne airport is the swanky seaside town of Saly-Portudal. With high-class hotels, casinos and a golf course, Saly is the playboy resort of the Petite-Côte and attracts a large number of French tourists over the European winter. One of the leading drivers behind Saly’s growth is its long arching beach, where palm-fronded hotel-restaurants line the back of the broad sand, while aquamarine water glistens ahead. With a number of beach side businesses offering jet ski hire, windsurfing and sport fishing, this is the perfect beach to indulge in a little bit of the ‘high-roller’ lifestyle at a reasonable price. ",
-            "image" : "https://pics.uncubus.tech/images/12725/upload/1500X770/b18755a7d7868ebb0a8d1e28a0eaa21f.jpg",
-            "activity" : "beach"
-            
-        },
-        {
-            "id": 9,
-            "name": "Ile de Ngor",
-            "location": "Ngor Island, Senegal",
-            "description": "A short 10-minute pirogue ride from Ngor beach in the north of Dakar, Ile de Ngor is not technically one beach, but four tiny coves within walking distance of each other. Connected by a labyrinth of cobbled streets, each beach offers up parasols, sunbeds and the most beautiful crystal blue water around Dakar. Throw in a host of water-based activities (surfing, fishing, diving) and a smattering of local restaurants, serving up locally caught fare and cold beers, and Ile de Ngor is the perfect one-stop-shop. The best beach to while away a day in Dakar.",
-            "image" : "https://mediaim.expedia.com/destination/1/c3737daf4e294e6ffc0922549bd65bb6.jpg",
-            "activity" : "beach"
-            
-        },
-        {
-            "id": 10,
-            "name": "Cap Skirring ",
-            "location": "Casamance, Senegal",
-            "description": "There’s a reason that Cap Skirring is the most popular tourist town in Casamance: its seemingly infinite white sandy beach. From Club Med near the airstrip to Bar de la Mer next to the Guinea-Bissau border, Cap Skirring beach offers up 3.5 miles (5.6 km) of uninterrupted coast. With a tropical backdrop of palm trees and bountiful foliage, shimmering Atlantic waters and sugar-like sand, you could be forgiven for thinking you were in the Caribbean. Due to its size, the beach bars, food shacks and hotels are interspersed along the beach and serve up everything from basic one-pot meals to full-on four course meals. Depending on the weather, there may be small waves to surf, but Cap Skirring is begging out for you to whip off your shoes, dig in your toes and walk and walk.",
-            "image" : "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/18/08/76/beach.jpg?w=900&h=-1&s=1 ",
-            "activity" : "beach"
-            
-        }
-    ]
+  "destinations": [
+    {
+      "id": 1,
+      "name": " Djoudj National Bird Sanctuary",
+      "location": "Debi, Senegal",
+      "description": "The Djoudj National Bird Sanctuary is a safe refuge for birds in Senegal. It is located on the Senegal River’s southeast bank in northern Biffeche area. The sanctuary was established on April 14, 1971, and occupies an area of 160 square km. Although UNESCO inscribed the Djoudj National Bird Sanctuary as a World Heritage Site in 1981, the site entered the list of World Heritage in Danger twice in its history. The introduction of the invasive giant salvinia plant in the sanctuary threatened to wipe out the indigenous vegetation completely on these occasions. The various wetland habitats of the sanctuary attract a range of migratory birds including flamingos, pelicans, aquatic warblers, etc. Today, the construction of the Diama Dam also threatens the flora and fauna of the bird sanctuary.",
+      "image": "https://www.mustseespots.com/senegal/img/djoudj-national-bird-sanctuary.jpg ",
+      "activity": "parks"
+    },
+    {
+      "id": 2,
+      "name": "Niokolo-Koba National Park",
+      "location": "South eastern Senegal",
+      "description": "Located near Senegal’s border with Guinea-Bissau in the southeastern part of the country, the Niokolo-Koba National Park is a protected area and a UNESCO World Heritage Site. It was founded as a reserved in 1925 and designated a national park in January 1954. In 2007, the park was declared to be an endangered World Heritage Site. Woodland savannah, semi-arid Soudanese forest, and wetlands cover most of the park. 1500 species of plants survive in the Niokolo-Koba. A great diversity of wildlife including 80 mammalian species, 60 fish species, 38 species of reptiles, 20 amphibian species, and hundreds of bird species live in the park. Some of the most iconic animals of the Niokolo-Koba are African elephants, wild buffaloes, lions, chimpanzees, hippopotamus, etc. The notable birdlife of the park includes martial eagle, black crowned crane, Arabian bustard, etc. Three species of crocodiles also live in the waters of the park.",
+      "image": "https://discover-senegal.com/wp-content/uploads/2019/05/Parc-national-du-niokolo-Koba.jpg ",
+      "activity": "parks"
+    },
+    {
+      "id": 3,
+      "name": "Maison des Esclaves(House of Slaves)",
+      "location": "Goree Island, Senegal",
+      "description": "Barack Obama visited la Maison des Esclaves (House of Slaves) in 2013. His predecessor, George W Bush, did the same in 2003 and Bill Clinton in 1998. Situated on Ile Gorée, an island 3km (1.86mi) off Dakar’s southern tip, a visit to this pastel-coloured museum is almost a rite of passage for dignitaries and tourists alike. That’s because la Maison des Esclaves is the last remaining slave house (of around 30) on an island that UNESCO claims was “the largest slave trading centre on the African coast” between the 15th and 19th centuries. Built in the 1700s, it has been preserved to show the brutal barbarism of the slave trade. The cramped squalid conditions in which its forced inmates were kept. The chains that bound necks, ankles and feet. The gut-wrenching tools that dished out punishment. And the infamous Door of No Return from which an estimated 20 million Africans said goodbye to their homeland.",
+      "image": "https://www.zinnedproject.org/wp-content/uploads/2021/06/Maison-des-Esclaves-Goree-Island-Senegal.jpg ",
+      "activity": "museums"
+    },
+    {
+      "id": 4,
+      "name": "Musée Théodore-Monod d’art Africain IFAN",
+      "location": "Dakar, Senegal",
+      "description": "Also known as the Dakar Museum or the Musée de l’IFAN (Institut Fondamental d’Afrique de Noire), the Théodore-Monod is a Dakar institution. Built in 1931, its collection of West African artefacts is by far the largest in Senegal (and arguably all of West Africa). From musical instruments to ancient weapons, sprawling tapestries to tiny carvings, its collection celebrates the diverse history and culture of the region and its tribes. Celebrations of death – funeral masks and drums – stand alongside celebrations of life – maternity clothes and woven baby carriers. There are hammocks, baskets and rugs from the UNESCO heritage site of Bassari country. Sculptures and headwear from the Dogon tribe of Mali. Even scarecrows and penis sheaths make an appearance. Set over two large floors, with insightful English and French descriptions, a visit to the ‘IFAN’ is well worth the entry fee.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/DakarMus%C3%A9e.jpg ",
+      "activity": "museums"
+    },
+    {
+      "id": 5,
+      "name": "The Lake Retba",
+      "location": "Dakar, Senegal",
+      "description": "Lac Rose lies north of the Cap Vert peninsula of Senegal, some 30 km north-east of the capital, Dakar, in northwest Africa. It is named for its pink waters caused by Dunaliella salina algae and is known for its high salt content, up to 40% in some areas.",
+      "image": "https://www.pandotrip.com/wp-content/uploads/2013/04/Lake-Hillier2.jpg ",
+      "activity": "tours"
+    },
+    {
+      "id": 6,
+      "name": "Touba",
+      "location": "Touba, Senegal",
+      "description": "Touba is a city in central Senegal, part of Diourbel Region and Mbacké district. With a population of 529,176 in 2010, it is the second most populated Senegalese city after Dakar. It is the holy city of Mouridism and the burial place of its founder, Shaikh Ahmadou Bàmba Mbàcke.",
+      "image": "https://cdn.theculturetrip.com/wp-content/uploads/2019/04/img_0241.jpg",
+      "activity": "tours"
+    },
+    {
+      "id": 7,
+      "name": "Kaolack ",
+      "location": "Kaolack, Senegal",
+      "description": "Kaolack is a town of 172,305 people on the north bank of the Saloum River and the N1 road in Senegal. It is the capital of the Kaolack Region, which borders The Gambia to the south. Kaolack is an important regional market town and is Senegal's main peanut trading and processing center. ",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Main_street_in_Kaolack_%28Senegal%29.jpg",
+      "activity": "tours"
+    },
+    {
+      "id": 8,
+      "name": "Saly-Portudal ",
+      "location": "Dakar, Senegal",
+      "description": "50 miles (80km) from Dakar and only 15 minutes from the new Blaise Diagne airport is the swanky seaside town of Saly-Portudal. With high-class hotels, casinos and a golf course, Saly is the playboy resort of the Petite-Côte and attracts a large number of French tourists over the European winter. One of the leading drivers behind Saly’s growth is its long arching beach, where palm-fronded hotel-restaurants line the back of the broad sand, while aquamarine water glistens ahead. With a number of beach side businesses offering jet ski hire, windsurfing and sport fishing, this is the perfect beach to indulge in a little bit of the ‘high-roller’ lifestyle at a reasonable price. ",
+      "image": "https://pics.uncubus.tech/images/12725/upload/1500X770/b18755a7d7868ebb0a8d1e28a0eaa21f.jpg",
+      "activity": "beaches"
+    },
+    {
+      "id": 9,
+      "name": "Ile de Ngor",
+      "location": "Ngor Island, Senegal",
+      "description": "A short 10-minute pirogue ride from Ngor beach in the north of Dakar, Ile de Ngor is not technically one beach, but four tiny coves within walking distance of each other. Connected by a labyrinth of cobbled streets, each beach offers up parasols, sunbeds and the most beautiful crystal blue water around Dakar. Throw in a host of water-based activities (surfing, fishing, diving) and a smattering of local restaurants, serving up locally caught fare and cold beers, and Ile de Ngor is the perfect one-stop-shop. The best beach to while away a day in Dakar.",
+      "image": "https://mediaim.expedia.com/destination/1/c3737daf4e294e6ffc0922549bd65bb6.jpg",
+      "activity": "beaches"
+    },
+    {
+      "id": 10,
+      "name": "Cap Skirring ",
+      "location": "Casamance, Senegal",
+      "description": "There’s a reason that Cap Skirring is the most popular tourist town in Casamance: its seemingly infinite white sandy beach. From Club Med near the airstrip to Bar de la Mer next to the Guinea-Bissau border, Cap Skirring beach offers up 3.5 miles (5.6 km) of uninterrupted coast. With a tropical backdrop of palm trees and bountiful foliage, shimmering Atlantic waters and sugar-like sand, you could be forgiven for thinking you were in the Caribbean. Due to its size, the beach bars, food shacks and hotels are interspersed along the beach and serve up everything from basic one-pot meals to full-on four course meals. Depending on the weather, there may be small waves to surf, but Cap Skirring is begging out for you to whip off your shoes, dig in your toes and walk and walk.",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/18/08/76/beach.jpg?w=900&h=-1&s=1 ",
+      "activity": "beaches"
+    }
+    
+  ]
 }

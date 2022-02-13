@@ -1,4 +1,3 @@
-import React, {useState, useEffect} from "react"
 import Form from './form'
 import {BrowserRouter as Router, Route} from 'react-router-dom'
 import About from './About'
