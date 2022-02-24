@@ -1,5 +1,5 @@
 import Form from './form'
-import {BrowserRouter as Router, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import About from './About'
 import Navvbar from './Navvbar';
 import Home from './Home';
@@ -13,12 +13,12 @@ function App() {
       <Navvbar/>
 
 
-      <switch>
+      <Switch>
         <Route exact path="/"exact component={Home}/>
          <Route path ="/about" exact component={About}/>
          <Route path ="/create" exact render={()=><Form/>}/>
 
-         </switch>
+         </Switch>
     </div>
     </Router>
   );

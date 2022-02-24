@@ -1,11 +1,14 @@
 import 'bootstrap/dist/css/bootstrap.css'
 import {Navbar, NavbarBrand,Container,Row,Col, Nav,Carousel} from 'react-bootstrap'
+import { NavLink, Link } from 'react-router-dom'
 
  const Navvbar = () => {
     return (
         <div>
              <Navbar className="justify-content-center">
+            
              <Navbar.Brand href="/">
+
       <img
         src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Flag_of_Senegal.svg"
         width="30"
@@ -15,12 +18,13 @@ import {Navbar, NavbarBrand,Container,Row,Col, Nav,Carousel} from 'react-bootstr
       />
     </Navbar.Brand>
             <Navbar.Brand href="/">Seneguide</Navbar.Brand>
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/about">About</Nav.Link>
-            <Nav.Link href="/create">Create New +</Nav.Link>
+            <Nav.Link as={Link} to={"/"}>Home</Nav.Link>
+            <Nav.Link as={Link} to={"/about"}>About</Nav.Link>
+            <Nav.Link as={Link}to={"/create"}>Create New +</Nav.Link>
             <Nav>    
           </Nav>
         </Navbar>
+        
         </div>
     )
 }
